@@ -10,7 +10,7 @@ public Plugin myinfo = {
 	name = "NT Team join chat commands",
 	description = "Use !s, !j, !n, command to join Spectator, Jinrai and NSF teams respectively",
 	author = "bauxite, rain",
-	version = "2.0",
+	version = "2.0.1",
 	url = "https://discord.gg/afhZuFB9A5",
 };
 
@@ -32,8 +32,8 @@ int GetTeamOfChar(char c)
 		case 'j': return TEAM_JINRAI;
 		case 'n': return TEAM_NSF;
 		case 's': return TEAM_SPECTATOR;
-		default: return TEAM_NONE;
 	}
+	return TEAM_NONE;
 }
 
 public Action Cmd_Switch(int client, int args)
