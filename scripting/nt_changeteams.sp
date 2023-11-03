@@ -9,8 +9,8 @@
 public Plugin myinfo = {
 	name = "NT Team join chat commands",
 	description = "Use !s, !j, !n, command to join Spectator, Jinrai and NSF teams respectively",
-	author = "bauxite",
-	version = "1.0.1",
+	author = "bauxite, rain",
+	version = "2.0",
 	url = "https://discord.gg/afhZuFB9A5",
 };
 
